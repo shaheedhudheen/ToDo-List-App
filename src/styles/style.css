@@ -1,4 +1,3 @@
-
 /* style */
 
 .navbar {
@@ -52,14 +51,49 @@
     font-weight: 600;
 }
 
-.projects-title{
+.projects-title {
     font-weight: 800;
 }
 
-.contents {
-    background-color: bisque;
+
+li {
+    cursor: pointer;
 }
 
-li{
-    cursor: pointer;
+li:hover {
+    color: red;
+}
+
+/* contents */
+
+.contents {
+    background-color: #fff;
+    padding: 2rem;
+
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-rows: 100px;
+}
+
+.task {
+    display: flex;
+    background-color: rgba(95, 99, 104, 0.3);
+    border-radius: 10px;
+
+    width: 600px;
+    padding: 1rem;
+    margin: auto;
+    justify-content: space-between;
+}
+
+#taskName {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    font-size: 1.5rem;
+}
+
+#star{
+    display: flex;
+    align-items: center;
 }
