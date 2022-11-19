@@ -1,4 +1,12 @@
 import "./styles/reset.css";
 import "./styles/style.css";
 
-console.log("hello world");
+import defaultExport from "./modules/domStuff";
+import AddProject from "./modules/addproject";
+
+
+
+
+
+
+
